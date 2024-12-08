@@ -66,8 +66,19 @@ deviation_penalty = 0.7
 - Deployed an interactive application using **Streamlit** to visually showcase the model’s performance.
 - Users can input real-time data and view detection results through a visual interface.
 
+### Extraction
+- Developed a data logistics system using MongoDB to manage and store large datasets efficiently.
+- Created a smart query system to interact dynamically with a computer vision system for specific data retrieval.
+- Designed a high-level architecture to automate and streamline data logistics processes.
 
+### Flow & Heatmap Analysis
+- Generated crowd density heatmaps using Python libraries for intuitive visualisation of populated areas.
+- Designed a flow map to illustrate crowd movement history over time, enabling better crowd management insights.
 
+### Object Detection
+- Built an object detection system using YOLO and OpenCV to track individuals entering, exiting, and moving within a stadium during a soccer match.
+- Integrated object detection data with heatmap analysis to create a visual representation of crowd behaviour in 3D.
+  
 ## Performance Analysis
 The performance analysis revealed key insights into the challenges of deploying advanced detection models like YOLOv8 and SAHI in real-world scenarios:
 
@@ -129,7 +140,7 @@ Future work will focus on optimizing the pipeline to balance accuracy and execut
 ## Contributors
 - **MD Tajish Farhan**
 - **Sahil Guglani**
-
+- **Damien Peters**
 
 
 ## Example Code
